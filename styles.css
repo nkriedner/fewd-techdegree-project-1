@@ -154,12 +154,6 @@ a.social {
 a.social:hover {
     opacity: 1;
 }
-/* a.twitter {
-    background-image: url(images/twitter.svg);
-}
-a.linkedin {
-    background-image: url(images/linkedin.svg);
-} */
 a.github {
     background-image: url(images/github.svg);
 }
@@ -209,6 +203,15 @@ a.social:hover {
 }
 
 /* My Styles */
+li {
+    line-height: 1.5;
+}
+address {
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
 .img-center-container {
     display: flex;
     justify-content: center;
@@ -222,6 +225,10 @@ a.social:hover {
 
 .center-align {
     text-align: center;
+}
+
+.margin-top-1 {
+    margin-top: 3rem;
 }
 
 ul.bio li {
