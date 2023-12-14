@@ -120,6 +120,10 @@ ul.skills {
     background: #0399ff;
 }
 
+ul.bio li {
+    margin-bottom: 1rem;
+}
+
 footer {
     width: 100%;
     min-height: 30px;
@@ -165,6 +169,10 @@ a.social:hover {
 }
 .clearfix {
     clear: both;
+}
+
+.center-align {
+    text-align: center;
 }
 
 /* Styles for larger screens */
