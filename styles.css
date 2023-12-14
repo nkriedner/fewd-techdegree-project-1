@@ -163,6 +163,15 @@ a.github {
 a.social:hover {
     opacity: 1;
 }
+a.github {
+    background-image: url(images/github.svg);
+}
+a.social:hover {
+    opacity: 1;
+}
+.clearfix {
+    clear: both;
+}
 .clearfix {
     clear: both;
 }
