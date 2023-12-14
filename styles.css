@@ -234,3 +234,13 @@ address {
 ul.bio li {
     margin-bottom: 1rem;
 }
+
+.text-link {
+    color: hsl(120, 66%, 40%);
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.text-link:hover {
+    color: hsl(120, 66%, 31%);
+}
