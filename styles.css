@@ -102,17 +102,6 @@ header .profile-image:hover {
     border-color: #ff99ff;
 }
 
-.img-center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card img {
-    width: 60%;
-    margin: 1rem 0;
-}
-
 ul.skills {
     padding: 0;
     text-align: center;
@@ -129,10 +118,6 @@ ul.skills {
 
 .skills li:nth-child(odd) {
     background: #0399ff;
-}
-
-ul.bio li {
-    margin-bottom: 1rem;
 }
 
 footer {
@@ -182,10 +167,6 @@ a.social:hover {
     clear: both;
 }
 
-.center-align {
-    text-align: center;
-}
-
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
     .flex {
@@ -219,4 +200,24 @@ a.social:hover {
         max-width: 1200px;
         margin: 40px auto;
     }
+}
+
+/* My Styles */
+.img-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 60%;
+    margin: 1rem 0;
+}
+
+.center-align {
+    text-align: center;
+}
+
+ul.bio li {
+    margin-bottom: 1rem;
 }
