@@ -102,6 +102,17 @@ header .profile-image:hover {
     border-color: #ff99ff;
 }
 
+.img-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 60%;
+    margin: 1rem 0;
+}
+
 ul.skills {
     padding: 0;
     text-align: center;
@@ -155,7 +166,7 @@ a.social {
     opacity: 0.4;
     transition: all 0.5s;
 }
-a.twitter {
+/* a.twitter {
     background-image: url(images/twitter.svg);
 }
 a.linkedin {
@@ -163,7 +174,7 @@ a.linkedin {
 }
 a.github {
     background-image: url(images/github.svg);
-}
+} */
 a.social:hover {
     opacity: 1;
 }
